@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
             counter.setTranslationY(-1000f);
             if (activePlayer == 0) {
-                counter.setImageResource(R.drawable.o);
+                counter.setImageResource(R.mipmap.o);
                 activePlayer = 1;
             } else {
-                counter.setImageResource(R.drawable.xx);
+                counter.setImageResource(R.mipmap.xx);
                 activePlayer = 0;
             }
             counter.animate().translationYBy(1000f).rotation(360).setDuration(300);
